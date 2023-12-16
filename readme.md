@@ -1,7 +1,7 @@
 # Dotfiles
 dotfiles 是用來統整環境的檔案，以便下次復原時更方便。下面是設定dotfiles的方法。
 
-### 搬遷設定黨
+### 搬遷設定檔案
 1. 創建dofiles 資料夾
 ```bash
 mkdir ~/.dotfiles
@@ -43,8 +43,10 @@ stow zsh
 - [zsh]
 
 ## neovim
-
-- hoogle
+- [# Keymaps](https://www.lazyvim.org/keymaps)
+	這個是neovim 裡面的預設鍵盤映射表，而我個人還有安裝其他套件，因此在此之後會持續更新套件映射表。
+	
+- **hoogle**
 `hoogle`是haskell的一個本地的lsp，而這邊將說明怎麼安裝他。
 	- ghc: 9.6.1
 
@@ -66,4 +68,4 @@ hoogle data --local
 
 # Reference
 - [# 建立 .dotfiles 以便在任何 Macbook 上都可以擁有相同的開發環境](https://arc.net/l/quote/rogmllym)
-- 
+- [# dotfiles](https://github.com/chaneyzorn/dotfiles)
