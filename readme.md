@@ -42,10 +42,26 @@ stow zsh
 - [neovim]
 - [zsh]
 
-### neovim
+## neovim
 
+- hoogle
+`hoogle`是haskell的一個本地的lsp，而這邊將說明怎麼安裝他。
+	- ghc: 9.6.1
 
-### zsh
+1. 安裝hoogle
+```bash
+cabal install hoogle
+```
+2. 生成hoogle 資料庫
+```bash
+hoogle generate
+```
+3. 套用
+```bash
+hoogle data --local
+```
+
+## zsh
 
 
 # Reference
