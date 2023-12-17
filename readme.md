@@ -42,15 +42,20 @@ stow zsh
 - [neovim]
 - [zsh]
 
+## zsh
+
 ## neovim
 - **haskell 語法顯示**
+	
 	這東西真搞爛我，本以為haskell-vim 可以弄好，最後再發現原來nvim-treestie可以做到這樣的事情。
 
 - [# Keymaps](https://www.lazyvim.org/keymaps)
+	
 	這個是neovim 裡面的預設鍵盤映射表，而我個人還有安裝其他套件，因此在此之後會持續更新套件映射表。
 	
 - **hoogle**
-`hoogle`是haskell的一個本地的lsp，而這邊將說明怎麼安裝他。
+	
+	`hoogle`是haskell的一個本地的lsp，而這邊將說明怎麼安裝他。
 	- ghc: 9.6.1
 
 1. 安裝hoogle
@@ -65,9 +70,6 @@ hoogle generate
 ```bash
 hoogle data --local
 ```
-
-## zsh
-
 
 # Reference
 - [# 建立 .dotfiles 以便在任何 Macbook 上都可以擁有相同的開發環境](https://arc.net/l/quote/rogmllym)

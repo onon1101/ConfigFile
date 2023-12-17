@@ -1,0 +1,68 @@
+tap "carlocab/personal"
+tap "homebrew/bundle"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Cross-platform make
+brew "cmake"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Generic library support script
+brew "libtool"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Command-line outline and bitmap font editor/converter
+brew "fontforge"
+# Glorious Glasgow Haskell Compilation System
+brew "ghc@9.6"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Integration point for ghcide and haskell-ide-engine. One IDE to rule them all
+brew "haskell-language-server"
+# Improved top (interactive process viewer)
+brew "htop"
+# Library for interacting with JSON
+brew "jsoncpp"
+# FTP client with an advanced user interface
+brew "ncftp"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Show ps output as a tree
+brew "pstree"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
+# Cross-platform application and UI framework
+brew "qt@5"
+# SMART hard drive monitoring
+brew "smartmontools"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# Extract, view, and test RAR archives
+brew "carlocab/personal/unrar"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
+# VHDL 2008/93/87 simulator
+cask "ghdl"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# IDE for application development
+cask "qt-creator"
