@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="fpga-support" Version="0.3.2" Publisher="sterben" />
+			<DisplayName>Digital IDE</DisplayName>
+			<Description xml:space="preserve">all in one vscode plugin for Verilog/VHDL development</Description>
+			<Tags>FPGA Develop Support,FPGA,ASIC,IC,Digital,HDL,Systemverilog,Verilog,VHDL,Vivado,Xilinx,snippet,keybindings,json,tcl,TCL,Xilinx Constraints File,Synopsis Constraints File,__ext_tcl,__ext_sdc,__ext_xdc,__ext_fdc,bd,__ext_bd,vhdl,__ext_vhd,__ext_vhdl,__ext_vho,__ext_vht,verilog,__ext_v,__ext_V,__ext_vh,__ext_vl,systemverilog,System Verilog,__ext_sv,__ext_SV,arm,ARM,__ext_s,__ext_S,__ext_asm,__ext_sx,linkerscript,LinkerScript,__ext_ld,__ext_dld,vvp,VivadoVerificationPlan,__ext_vvp,__ext_VVP,__ext_vout,vcd,__ext_vcd,digital-ide-output</Tags>
+			<Categories>Extension Packs,Programming Languages,Snippets</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.72.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Digital-EDA/Digital-IDE.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Digital-EDA/Digital-IDE.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Digital-EDA/Digital-IDE.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Digital-EDA/Digital-IDE/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://digital-eda.github.io/DIDE-doc-Cn" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/images/icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>
