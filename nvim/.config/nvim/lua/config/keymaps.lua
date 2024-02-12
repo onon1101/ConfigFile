@@ -2,4 +2,8 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
--- vim.keymap.set("n", "<leader>rhs", "[[:w | :ToggleTerm cmd='echo "h"']]")
+local Util = require("lazyvim.util")
+
+local map = Util.safe_keymap_set
+
+map("n", "<Leader>cr", "<cmd>term cargo check<cr>", { desc = "cargo check" })
