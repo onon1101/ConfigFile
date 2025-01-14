@@ -42,15 +42,28 @@ stow zsh
 - [neovim]
 - [zsh]
 
+## ghostty
+
+```txt
+.dotfile/
+|---ghostty/config
+```
+
+```bash
+
+ln -s ./ghostty/config ~/.config/ghostty/config
+```
 ## zsh
 
 ## neovim
+
+
+![](./dist/neovim.png)
 - **haskell 語法顯示**
 	
 	這東西真搞爛我，本以為haskell-vim 可以弄好，最後再發現原來nvim-treestie可以做到這樣的事情。
 
 
-![](./dist/neovim.png)
 - [# Keymaps](https://www.lazyvim.org/keymaps)
 	
 	這個是neovim 裡面的預設鍵盤映射表，而我個人還有安裝其他套件，因此在此之後會持續更新套件映射表。

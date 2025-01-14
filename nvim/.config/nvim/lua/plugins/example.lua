@@ -92,6 +92,8 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
+
+        neocmake = {},
       },
     },
   },
@@ -168,6 +170,7 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "tsx",
         "typescript",
+        "cmake",
       })
     end,
   },
@@ -211,6 +214,8 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "cmakelang",
+        "cmakelint",
       },
     },
   },
