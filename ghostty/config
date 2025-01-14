@@ -1,3 +1,15 @@
+# windows 
+font-size = 12
+window-height = 22
+window-width = 75
+window-colorspace = "display-p3"
+# window-padding-balance = true
+# adjust-cell-height = 35%
+# window-save-state = always
+shell-integration-features = no-title
+
+# font
+
 theme = iTerm2 Dark Background
 background-opacity = 0.9
 macos-titlebar-style = tabs

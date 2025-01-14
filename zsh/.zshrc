@@ -163,7 +163,7 @@ export VK_LAYER_PATH=$VULKAN_SDK/share/vulkan/explicit_layer.d
 [ -f "/Users/chenshiang/.ghcup/env" ] && source "/Users/chenshiang/.ghcup/env" # ghcup-env
 
 # direnv
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
 
 
 
@@ -204,6 +204,46 @@ eval "$(direnv hook zsh)"
 # This section can be safely removed at any time if needed.
 [[ ! -r '/Users/chenshiang/.opam/opam-init/init.zsh' ]] || source '/Users/chenshiang/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
